@@ -1,0 +1,62 @@
+/* 这个是heros的局部样式 */
+
+.heros{
+    margin: 0 0 2em 0;
+    /* 表示标签ul里面的无序列表前面没有点号属性 */
+    list-style-type: none;  
+    padding: 0;
+    /* 设置ul的宽为15em，em其实是一个弹性布局，比如一个汉字是15个px像素，那么一个em就是15px */
+    width: 15em;
+}
+
+.heros li{
+    /* 相当于光标浮过去的时候，变成一个小手手 */
+    cursor: pointer;
+    /* 指定一个元素是（相对的还是就绝对的（会不会受到父元素的影响）） */
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: 0.5em;
+    padding: 0.3em 0;
+    height: 1.6em;
+    /* 添加圆角边框 */
+    border-radius: 4px;
+}
+
+/* 一个选择器，表示鼠标浮在上面会产生什么样的效果 */
+.heros li:hover {
+    color: #607d8b;
+    background-color:#DDD;
+    left: 0.1em;
+}
+
+.heros li.selected{
+    background-color: #cfd8cf;
+    color: white;
+}
+
+
+.heros li.selected:hover{
+    background-color: #BBD8DC;
+    color: white;
+}
+
+.heros .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:#405061;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+
+
+  .test{
+      color: #607d8b;
+  }

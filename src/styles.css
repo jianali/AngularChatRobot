@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    /* font-weight: lighter; */
+}
+
+h2,h3{
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+body{
+    margin: 2em;    /* 相当于外边框 */
+    border: "1";    /* 边框的虚线 */
+    border-color: #444;
+    border-style: dashed;
+}
+
+body,input[type="text"],button{
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 这里可以对自定义的组件加上若干属性 */
+app-heros {
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+    font-size: large;
+
+}
+
+div{
+    border: 1px;
+    /* border-style: solid; */
+}

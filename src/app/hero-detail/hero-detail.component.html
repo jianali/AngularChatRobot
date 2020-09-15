@@ -1,0 +1,15 @@
+<h2>{{hero.name}} 详情：</h2>
+<div><span>编号:</span> {{hero.id}} </div>
+<br>
+<div>姓名: {{hero.name | uppercase}}  </div>
+<br>
+
+<!-- 这里的div，在css中定义了border边框 -->
+<div *ngIf="hero">
+    <!-- <label> -->
+        <!-- 这里的ngmodel属于FormsModule模块 -->
+        <input [(ngModel)]="hero.name" placeholder="请出入联盟英雄的名字" type="text">
+    <!-- </label> -->
+
+    <button (click)="goBack()">返回</button>
+</div>

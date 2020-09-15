@@ -1,0 +1,25 @@
+
+nav a{
+    background-color: blanchedalmond;
+    border-radius: 4px;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a:visited,a:link{
+    color: #334953;
+}
+
+nav a:hover{
+    background-color: goldenrod;
+}
+
+.chat{
+    /* border: #334953;
+    border-color: #444;
+    border-style: dashed; */
+}
+
+
